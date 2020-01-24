@@ -1,0 +1,41 @@
+<hello name="{{ name }}"></hello>
+<p>
+	Start editing to see some magic happen :)
+</p>
+<h2>{{title}}</h2>
+
+<form>
+ 
+ 
+<!-- event binding start -->
+ 
+
+<!-- event binding start -->
+
+</form>
+
+<!-- two event binding start -->
+ 
+
+<!-- two event binding end -->
+
+
+<!-- template #ref variable start -->
+
+<h1> template #ref variable  </h1>
+<div>
+<div style="margin-bottom:30px">
+  <h1>Single  Event binding  </h1>  
+  <input type="text" [value]="valueName" (input)="handleChange($event.target.value)">
+  <button (click)="handleClick()">Change Name</button>
+  <p *ngIf="valueName.length"> Searching For... {{ valueName }}</p>
+</div> 
+  
+
+  
+     
+</div>
+<!-- template #ref variable end -->
+
+
+
